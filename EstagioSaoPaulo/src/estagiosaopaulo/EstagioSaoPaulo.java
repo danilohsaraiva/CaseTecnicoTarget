@@ -179,7 +179,7 @@ public class EstagioSaoPaulo {
                 utilDiaMedia++;
             }
         }
-        
+        System.out.println("Valo total: " + total + " valor utildia" + utilDiaMedia);
         double media = total/utilDiaMedia;
         
         System.out.println("Informações do Faturamento do Mês " + mes);
